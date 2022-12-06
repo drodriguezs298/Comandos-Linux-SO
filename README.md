@@ -25,7 +25,8 @@ sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinu
 ```sudo su``` | para volverse super administrador |![image](https://user-images.githubusercontent.com/114045975/206005983-3e9b65e9-e29c-411a-b08b-7cf7e6d8ec76.png)
 ```whoami``` | mostrar el usuario que somos | ![image](https://user-images.githubusercontent.com/114045975/206006258-70eb41b9-15e7-4387-a638-2511c015d404.png)
 ```exit``` | salir de donde estamos, cerrar la terminal, etc. Es como ir hacia atras | ![image](https://user-images.githubusercontent.com/114045975/206006495-03e5b2fa-c7c6-40b2-896e-0fd64e4fda3a.png)
-```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg | ```more```
+```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg ```|``` ```more```
+```less```| opuesto a more |
 ```|``` | concatena dos comandos | cat /var/log/dmesg ```|``` more
 ```tail``` | ver el final del archivo segun x cantidad de lineas | ```tail``` -n 5 [name].txt (imprime las ultimas 5 lineas)
 ```head``` | ver el principio de un archivo segun x cantidad de lineas | ```head``` -n 5 [name].txt
@@ -34,3 +35,20 @@ sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinu
 ```adduser``` | agregar un nuevo usuario | sudo ```adduser``` maria
 ```passwd``` | cambiar la contraseña de un usuario | sudo ```passwd``` maria
 ```cntrl + c``` | detener un proceso | 
+```ls -l``` | lista los archivos del directorio y sus permisos | ![image](https://user-images.githubusercontent.com/114045975/206014425-a3b5592b-0d8a-478e-b162-5d628748f338.png)
+```file``` | muestra el tipo de un archivo | ![image](https://user-images.githubusercontent.com/114045975/206014816-e73d4feb-2461-40aa-9d1b-80455d48303b.png)
+```echo``` | imprime un mensaje en pantalla |![image](https://user-images.githubusercontent.com/114045975/206015102-0697d1c5-ef50-4e62-914f-fec58768b5f4.png)
+```startx``` | inicia el etorno grafico | ![image](https://user-images.githubusercontent.com/114045975/206015700-8afd3e44-1b21-4805-bc93-89675bc30eb0.png)
+```tar``` | comprime archivos o carpetas | tar nom_archivo.tar nom_archivo
+```chmod``` | cambiar los permisos de una carpeta o archivo | chmod 777 /media/raid5
+```chown``` | modificar el propietario de una carpeta o archivo | chown [OPTIONS] USER[:GROUP] FILE, sudo ```chown``` nobody:nogroup /home/drodriguezs298/ftp
+```unzip``` | extrae el contenido de unarchivo comprimido | unzip images.zip
+```whatis``` | descripcion corta de un comando u objeto | ![image](https://user-images.githubusercontent.com/114045975/206018506-9a6776fd-e7a1-4b10-b604-8b5b36e7942b.png)
+```neofetch``` | imprime informacion del sistema | ![image](https://user-images.githubusercontent.com/114045975/206018695-265933bd-a6d0-42b8-b5e3-bd6f7ecb298b.png)
+```wget``` | recuperar/descargar contenido de internet | wget https://raw.githubusercontent.com/DaniDiazTech/Object-Oriented-Programming-in-Python/main/object_oriented_programming/cookies.py
+```alias``` | para ver los alias creados o crear uno | ![image](https://user-images.githubusercontent.com/114045975/206019371-655b4b68-ead8-452e-9486-6ef633ad19c3.png)
+```shutdown``` | apagar la maquina |
+```reboot``` | reiniciar la maquina |
+```wc``` | cuenta las palabras de un archivo, imprimiendo cantidad de lineas, palabras y tamaño en bytes | ![image](https://user-images.githubusercontent.com/114045975/206019970-55b3e168-079f-4458-8bb9-13a01b105bab.png)
+
+
