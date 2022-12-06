@@ -50,5 +50,7 @@ sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinu
 ```shutdown``` | apagar la maquina |
 ```reboot``` | reiniciar la maquina |
 ```wc``` | cuenta las palabras de un archivo, imprimiendo cantidad de lineas, palabras y tamaño en bytes | ![image](https://user-images.githubusercontent.com/114045975/206019970-55b3e168-079f-4458-8bb9-13a01b105bab.png)
-
+```uname``` | imprime la informacion del sistema operativo | ![image](https://user-images.githubusercontent.com/114045975/206020502-24ecc2b1-8f86-499e-a34b-18fa3c5badbe.png)
+```ufw``` | firewall | sudo ufw enable, sudo ufw disable, sudo ufw allow 22 (puerto)
+```mdadm``` | administrar discos y dispositivos | ![image](https://user-images.githubusercontent.com/114045975/206021337-c59e8d3a-7068-4f78-b63c-0d315504b106.png)
 
