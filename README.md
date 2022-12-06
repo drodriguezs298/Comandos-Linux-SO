@@ -20,3 +20,17 @@ Repositorio de comandos de Linux del curso Sistemas Operativos, Ulacit, 2022.
 ```ps -aux``` | imprime los procesos de ese momento| [ps -aux command - Diana Rodriguez.webm](https://user-images.githubusercontent.com/114045975/192121161-92a7cbe7-0867-44f2-b9bd-784d45b1e1f4.webm)
 ```pstree``` | imprime los procesos en árbol| ![image](https://user-images.githubusercontent.com/114045975/192121185-2ae33390-9c15-4a64-aa45-b741c51e861d.png)
 ```kill -9 [PID]``` | para matar un proceso| ![image](https://user-images.githubusercontent.com/114045975/192121211-56b7f054-360b-4fae-81db-33f7d5746b50.png)
+sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinuxAdditions.run
+```man``` | abre un manual de lo que se indique | ```man``` apt ![image](https://user-images.githubusercontent.com/114045975/206005741-8c2381ac-a775-4332-bad8-b92433d292ce.png)
+```sudo su``` | para volverse super administrador |![image](https://user-images.githubusercontent.com/114045975/206005983-3e9b65e9-e29c-411a-b08b-7cf7e6d8ec76.png)
+```whoami``` | mostrar el usuario que somos | ![image](https://user-images.githubusercontent.com/114045975/206006258-70eb41b9-15e7-4387-a638-2511c015d404.png)
+```exit``` | salir de donde estamos, cerrar la terminal, etc. Es como ir hacia atras | ![image](https://user-images.githubusercontent.com/114045975/206006495-03e5b2fa-c7c6-40b2-896e-0fd64e4fda3a.png)
+```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg | ```more```
+```|``` | concatena dos comandos | cat /var/log/dmesg ```|``` more
+```tail``` | ver el final del archivo segun x cantidad de lineas | ```tail``` -n 5 [name].txt (imprime las ultimas 5 lineas)
+```head``` | ver el principio de un archivo segun x cantidad de lineas | ```head``` -n 5 [name].txt
+```cp``` | copiar un archivo a x archivo | ```cp``` prueba1.txt resultados.txt
+```mv``` | mover un archivo a x ruta | ```mv``` resultados.txt Semana11
+```adduser``` | agregar un nuevo usuario | sudo ```adduser``` maria
+```passwd``` | cambiar la contraseña de un usuario | sudo ```passwd``` maria
+```cntrl + c``` | detener un proceso | 
