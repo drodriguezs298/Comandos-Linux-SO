@@ -21,11 +21,12 @@ Repositorio de comandos de Linux del curso Sistemas Operativos, Ulacit, 2022.
 ```pstree``` | imprime los procesos en árbol| ![image](https://user-images.githubusercontent.com/114045975/192121185-2ae33390-9c15-4a64-aa45-b741c51e861d.png)
 ```kill -9 [PID]``` | para matar un proceso| ![image](https://user-images.githubusercontent.com/114045975/192121211-56b7f054-360b-4fae-81db-33f7d5746b50.png)
 sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinuxAdditions.run
+```ip a``` | conocer la ip de la maquina | ![image](https://user-images.githubusercontent.com/114045975/206023094-f5d12faf-399e-4497-bb8d-b81ceb867118.png)
 ```man``` | abre un manual de lo que se indique | ```man``` apt ![image](https://user-images.githubusercontent.com/114045975/206005741-8c2381ac-a775-4332-bad8-b92433d292ce.png)
 ```sudo su``` | para volverse super administrador |![image](https://user-images.githubusercontent.com/114045975/206005983-3e9b65e9-e29c-411a-b08b-7cf7e6d8ec76.png)
 ```whoami``` | mostrar el usuario que somos | ![image](https://user-images.githubusercontent.com/114045975/206006258-70eb41b9-15e7-4387-a638-2511c015d404.png)
 ```exit``` | salir de donde estamos, cerrar la terminal, etc. Es como ir hacia atras | ![image](https://user-images.githubusercontent.com/114045975/206006495-03e5b2fa-c7c6-40b2-896e-0fd64e4fda3a.png)
-```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg ```|``` ```more```
+```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg ```| more```
 ```less```| opuesto a more |
 ```|``` | concatena dos comandos | cat /var/log/dmesg ```|``` more
 ```tail``` | ver el final del archivo segun x cantidad de lineas | ```tail``` -n 5 [name].txt (imprime las ultimas 5 lineas)
@@ -51,6 +52,7 @@ sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinu
 ```reboot``` | reiniciar la maquina |
 ```wc``` | cuenta las palabras de un archivo, imprimiendo cantidad de lineas, palabras y tamaño en bytes | ![image](https://user-images.githubusercontent.com/114045975/206019970-55b3e168-079f-4458-8bb9-13a01b105bab.png)
 ```uname``` | imprime la informacion del sistema operativo | ![image](https://user-images.githubusercontent.com/114045975/206020502-24ecc2b1-8f86-499e-a34b-18fa3c5badbe.png)
-```ufw``` | firewall | sudo ufw enable, sudo ufw disable, sudo ufw allow 22 (puerto)
+```ufw``` | firewall | sudo ufw enable, sudo ufw disable, sudo ufw allow 22 (puerto) ![image](https://user-images.githubusercontent.com/114045975/206023503-81972475-593a-4adc-899f-84ee1da8f403.png)
 ```mdadm``` | administrar discos y dispositivos | ![image](https://user-images.githubusercontent.com/114045975/206021337-c59e8d3a-7068-4f78-b63c-0d315504b106.png)
-
+```systemctl```| para administrar el sistema, configuraciones de servicios, etc. | sudo systemctl status apache2, sudo systemctl restart vsftpd
+```pacman```, ```yay```, ```pikaur``` | repositorios de archlinux | sudo pacman -Syuu (actualizar sistema), yay -S onlyoffice-bin, pikaur -S onlyoffice-bin
