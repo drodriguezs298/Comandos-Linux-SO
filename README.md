@@ -26,9 +26,9 @@ sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinu
 ```sudo su``` | para volverse super administrador |![image](https://user-images.githubusercontent.com/114045975/206005983-3e9b65e9-e29c-411a-b08b-7cf7e6d8ec76.png)
 ```whoami``` | mostrar el usuario que somos | ![image](https://user-images.githubusercontent.com/114045975/206006258-70eb41b9-15e7-4387-a638-2511c015d404.png)
 ```exit``` | salir de donde estamos, cerrar la terminal, etc. Es como ir hacia atras | ![image](https://user-images.githubusercontent.com/114045975/206006495-03e5b2fa-c7c6-40b2-896e-0fd64e4fda3a.png)
-```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg ```| more```
+```more [name].txt ``` | imprime el contenido del archivo, para archivos que son muy largos | cat /var/log/dmesg ```barra more```
 ```less```| opuesto a more |
-```|``` | concatena dos comandos | cat /var/log/dmesg ```|``` more
+```barra``` | concatena dos comandos | cat /var/log/dmesg ```barra``` more
 ```tail``` | ver el final del archivo segun x cantidad de lineas | ```tail``` -n 5 [name].txt (imprime las ultimas 5 lineas)
 ```head``` | ver el principio de un archivo segun x cantidad de lineas | ```head``` -n 5 [name].txt
 ```cp``` | copiar un archivo a x archivo | ```cp``` prueba1.txt resultados.txt
