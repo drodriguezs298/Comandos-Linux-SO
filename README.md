@@ -56,3 +56,16 @@ sudo apt install```openssh-sever``` | instala el openssh | ```sudo``` ./VBoxLinu
 ```mdadm``` | administrar discos y dispositivos | ![image](https://user-images.githubusercontent.com/114045975/206021337-c59e8d3a-7068-4f78-b63c-0d315504b106.png)
 ```systemctl```| para administrar el sistema, configuraciones de servicios, etc. | sudo systemctl status apache2, sudo systemctl restart vsftpd
 ```pacman```, ```yay```, ```pikaur``` | repositorios de archlinux | sudo pacman -Syuu (actualizar sistema), yay -S onlyoffice-bin, pikaur -S onlyoffice-bin
+```docker images``` | imprime la lista de imagenes disponibles | ![image](https://user-images.githubusercontent.com/114045975/206067440-523f64d2-acdc-4ce5-921e-b1a522df98d7.png)
+```docker pull [imagen]``` | selecciona la imagen que se indica | docker pull ubuntu
+```docker run [imagen]``` | corre la imagen | docker run ubuntu
+```docker build``` | crea el contenedor | ![image](https://user-images.githubusercontent.com/114045975/206067542-faa81a6a-1f41-4b52-a01f-a7956492a62c.png)
+```docker kill``` | mata el contenedor que se indique | ![image](https://user-images.githubusercontent.com/114045975/206067934-500b0255-05f0-4e01-8c7d-c07d51c0110f.png)
+```docker start``` | inicia el contenedor que se indique | ![image](https://user-images.githubusercontent.com/114045975/206067720-8ecd42b6-7fbf-44a7-a098-9815a4e1eea0.png)
+```docker pause``` | pausa el contenedor que se indique | ![image](https://user-images.githubusercontent.com/114045975/206067757-11d200a6-4f48-4429-ae6a-f4c1829222dc.png)
+```docker ps -a``` | imprime la lista de contenedores corriendo | ![image](https://user-images.githubusercontent.com/114045975/206067605-8e3b25fe-b804-48c4-bbc1-c0e8e021bb38.png)
+```docker network ls``` | imprime la lista de networks que daemon conoce | ![image](https://user-images.githubusercontent.com/114045975/206068048-b8908f28-dd87-49c0-be31-191083dc2db3.png)
+```docker history``` | enseña el historial de una imagen | docker history nginx ![image](https://user-images.githubusercontent.com/114045975/206068211-77fee3cc-5c21-4e76-a297-94c432b77bea.png)
+```docker rmi``` | elimina una o mas imagenes del nodo host | ![image](https://user-images.githubusercontent.com/114045975/206068260-3c2a42f8-b466-4633-9aac-5ddf90542231.png)
+```docker info``` | imprime la version del kernel, numero de contenedores e imagenes | ![image](https://user-images.githubusercontent.com/114045975/206068339-ff6784dc-982b-470d-a006-978af144f7b1.png)
+```dpkg -version``` | instala, compila, elimina, configura y recupera información para los paquetes de Debian | dpkg -version
